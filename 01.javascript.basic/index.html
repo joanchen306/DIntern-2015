@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <script src='js/jquery-2.1.4.min.js'></script>
+    <script>
+      $(function(){
+          $('#clickBtn').click(function(){
+            console.log($('#textInput').val());   
+          })
+      })
+    </script>
+  </head>
+  <body>
+    <input type='text' id='textInput' style='width:500px'/>
+    <input type='button' value='click' id='clickBtn' />
+  </body>
+</html>
